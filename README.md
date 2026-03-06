@@ -63,21 +63,20 @@ Project Workflow
 4. Inventory Optimization Calculations
 5. Power BI Dashboard Development
 
-   Demand Forecasting
-
+Demand Forecasting
 A machine learning model was implemented to predict future product demand based on historical sales patterns.
 
 Models explored: Linear Regression , Random Forest (optional) , Time-series trend analysis
-
 The forecasting results allow businesses to anticipate demand and plan inventory accordingly.
 
-Inventory Optimization
-The project calculates important inventory planning metrics.
+Inventory Optimization : The project calculates important inventory planning metrics.
 
 Safety Stock : Safety stock protects against demand variability.
 Safety Stock = Z × Standard Deviation of Demand × √Lead Time
+
 Reorder Point : Reorder Point determines when new inventory should be ordered.
 Reorder Point = (Average Demand × Lead Time) + Safety Stock
+
 Economic Order Quantity (EOQ): EOQ identifies the optimal order quantity that minimizes total inventory costs.
 EOQ = √((2 × Demand × Ordering Cost) / Holding Cost)
 
