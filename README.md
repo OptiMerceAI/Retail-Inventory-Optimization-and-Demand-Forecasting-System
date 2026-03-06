@@ -128,7 +128,7 @@ Future Improvements
 
 Author
 BHRANTI PATEL
-Data Analytics Portfolio Project
+Data Analyst Portfolio Project
 
 License
 
