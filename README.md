@@ -63,8 +63,7 @@ Project Workflow
 4. Inventory Optimization Calculations
 5. Power BI Dashboard Development
 
-Demand Forecasting
-A machine learning model was implemented to predict future product demand based on historical sales patterns.
+Demand Forecasting : A machine learning model was implemented to predict future product demand based on historical sales patterns.
 
 Models explored: Linear Regression , Random Forest (optional) , Time-series trend analysis
 The forecasting results allow businesses to anticipate demand and plan inventory accordingly.
