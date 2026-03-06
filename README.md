@@ -63,11 +63,23 @@ Project Workflow
 4. Inventory Optimization Calculations
 5. Power BI Dashboard Development
 
-Inventory Optimization Metrics
+   Demand Forecasting
 
-Safety Stock : Safety stock protects against demand variability and supply delays.
-Reorder Point : The inventory level at which a new order should be placed.
-Economic Order Quantity (EOQ) : The optimal order quantity that minimizes total inventory cost.
+A machine learning model was implemented to predict future product demand based on historical sales patterns.
+
+Models explored: Linear Regression , Random Forest (optional) , Time-series trend analysis
+
+The forecasting results allow businesses to anticipate demand and plan inventory accordingly.
+
+Inventory Optimization
+The project calculates important inventory planning metrics.
+
+Safety Stock : Safety stock protects against demand variability.
+Safety Stock = Z × Standard Deviation of Demand × √Lead Time
+Reorder Point : Reorder Point determines when new inventory should be ordered.
+Reorder Point = (Average Demand × Lead Time) + Safety Stock
+Economic Order Quantity (EOQ): EOQ identifies the optimal order quantity that minimizes total inventory costs.
+EOQ = √((2 × Demand × Ordering Cost) / Holding Cost)
 
 Power BI Dashboard
 The dashboard provides business insights through multiple pages:
@@ -113,22 +125,19 @@ inventory-optimization-project
 └── README.md
 
 Key Insights
-
 * Sales show strong seasonal trends
 * Promotions significantly increase demand
 * Some products frequently fall below reorder levels
 * Demand forecasting improves inventory planning
 
 Future Improvements
-
 * Implement advanced time-series forecasting models
 * Build automated data pipelines
 * Integrate real-time inventory monitoring
 * Deploy the model as a web application
 
 Author
-BHRANTI PATEL
-Data Analyst Portfolio Project
+BHRANTI PATEL - Data Scientist Portfolio Project
 
 License
 
